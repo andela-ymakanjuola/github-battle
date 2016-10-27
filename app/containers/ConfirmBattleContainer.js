@@ -3,7 +3,7 @@ var ConfirmBattle = require('../components/ConfirmBattle');
 
 var ConfirmBattleContainer = React.createClass({
   contextTypes: {
-    router: React.Proptypes.object.isRequired
+    router: React.PropTypes.object.isRequired
   },
   getInitialState: function () {
     return {
