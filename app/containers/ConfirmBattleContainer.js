@@ -10,7 +10,7 @@ var ConfirmBattleContainer = React.createClass({
     console.log('getInitialState');
     return {
       isLoading: true,
-      playerInfo: []
+      playersInfo: []
     }
   },
   componentWillMount: function () {
@@ -37,7 +37,7 @@ var ConfirmBattleContainer = React.createClass({
     return (
       <ConfirmBattle
         isLoading={this.state.isLoading}
-        playerInfo={this.state.playerInfo} />
+        playersInfo={this.state.playersInfo} />
     )
   }
 });
